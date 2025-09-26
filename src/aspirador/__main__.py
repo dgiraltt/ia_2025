@@ -1,6 +1,5 @@
 from aspirador import joc, joc_gui, agent
 
-
 #agents = [agent.AspiradorTaula()]
 #agents = [agent.AspiradorReflex()]
 agents = [agent.AspiradorMemoria()]
