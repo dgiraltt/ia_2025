@@ -6,8 +6,12 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "ialib",
+    "numpy==2.3.3",
+    "pip==25.2",
     "pygame>=2.6.1",
-    "typer>=0.16.0",
+    "pyinstaller==6.16.0",
+    "pyopengl==3.1.10",
+    "typer==0.19.2",
 ]
 
 [project.scripts]
