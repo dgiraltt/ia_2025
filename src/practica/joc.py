@@ -40,7 +40,7 @@ class Casella:
 	IMG_DESTI = files("practica.images") / "desti.png"
 	IMG_AGENT = files("practica.images") / "robot.png"
 
-	SIZE = (50, 50)
+	SIZE = (100, 100)#(50, 50)
 
 	def __init__(self, is_paret=False, in_agent=False, desti=False):
 		if is_paret + in_agent > 1:

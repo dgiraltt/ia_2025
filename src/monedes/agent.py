@@ -25,7 +25,3 @@ class AgentMoneda(agent.Agent):
         self, percepcio
     ):
         return "R", None
-
-
-
-

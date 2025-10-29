@@ -1,5 +1,5 @@
-from monedes import agent, joc
-
+from monedes import joc#, agent
+from monedes.solucio import agent
 
 def main():
     ag_mon = agent.AgentMoneda()

@@ -29,7 +29,7 @@ class BarcaAmplada(Barca):
             if estat_actual.es_meta():
                 break
 
-            for f in estat_actual.genera_fill():
+            for f in estat_actual.genera_fills():
                 self.__frontera.append(f)
 
             self.__tancats.add(estat_actual)
